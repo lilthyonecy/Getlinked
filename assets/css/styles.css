@@ -1,0 +1,8 @@
+:root {
+  --color1: #150e28;
+  --color2: #903aff;
+  --color3: #d434fe;
+  --primary-color: linear-gradient(90deg, var(--color2), var(--color3));
+  /* --primary-color: linear-gradient(90deg, #903aff, #d434fe); */
+  --font-size: 16px;
+}
