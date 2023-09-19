@@ -4,12 +4,15 @@
   --color1: #150e28;
   --color2: #903aff;
   --color3: #d434fe;
+  --secondary-color: #ffffff;
   --primary-color: linear-gradient(90deg, var(--color2), var(--color3));
   /* --primary-color: linear-gradient(90deg, #903aff, #d434fe); */
   --font-size: 16px;
 }
 
 body {
+  background-color: var(--color1);
+  color: var(--secondary-color);
   margin: 0;
   font-family: "Roboto Flex", sans-serif;
 }
