@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700;8..144,900&display=swap");
+
 :root {
   --color1: #150e28;
   --color2: #903aff;
@@ -5,4 +7,49 @@
   --primary-color: linear-gradient(90deg, var(--color2), var(--color3));
   /* --primary-color: linear-gradient(90deg, #903aff, #d434fe); */
   --font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+/* Style for Sections */
+.sections {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+@media (max-width: 740px) {
+  .sections {
+    flex-direction: column;
+  }
+}
+
+/* Style for Section Heading (h2) */
+h2,
+section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* Style for Section Heading (h2) */
+.section-heading {
+  color: var(--color3);
+}
+
+.section-contents {
+  flex: 1;
+}
+
+.section-info {
+  padding: 20px;
+}
+
+@media (max-width: 740px) {
+  .section-info {
+    text-align: center;
+  }
 }
